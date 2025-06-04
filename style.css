@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f9fdf9;
+    color: #222;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.hero {
+    background: #e0f2e9;
+    padding: 40px 20px;
+}
+.hero img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+.hero-text h1 {
+    font-size: 36px;
+    color: #2e7d32;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.section.alt {
+    background: #f0f9f3;
+}
+.benefits, .clinical {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.benefits img, .clinical img {
+    width: 250px;
+    border-radius: 10px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+footer {
+    background: #2e7d32;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
